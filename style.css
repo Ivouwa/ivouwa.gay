@@ -1,9 +1,21 @@
 
-html{
-    font-family: "Nunito", sans-serif;
+@font-face {
+    font-family: Ubuntu-light;
+    src: url(Ubuntu-Light.ttf);
+}
+
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url(Ubuntu-Regular.ttf);
+}
+
+html{ 
+    font-family: "Ubuntu-Light", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+
     color: rgb(255, 255, 255);
     font-weight: 100;
-
 
     background-color: rgb(85, 85, 85);
     background-image: url(background.jpg);
@@ -13,7 +25,6 @@ html{
     background-position-y: -300px
 }
         
-
 .border{
    outline: 1px inset rgb(126, 126, 126);
    border: 2px solid rgb(0, 0, 0);
@@ -34,24 +45,35 @@ html{
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
-       height: 99vh;
-          width: 99%;
 }
 
-.small{
+.hi{
+    line-height: 5px;
+    font-size: 40px;
+    padding-top: 20px;
+    font-family:"Ubuntu-Regular";
+}
+
+.pronouns{
     font-size: small;
-}
-
-.smallfix{
-    line-height: normal;
 }
 
 .flag{
     width: 15px;
 }
 
- div{
-     padding: 7px;
+.largefix{
+    font-size: 25px;
+    font-family:"Ubuntu-Regular";
+}
+
+.smallfix{
+    line-height: normal;
+    font-size: 15px;
+}
+
+div{
+     padding: 2vh;
 }
 
 .buttondesign{
@@ -62,6 +84,8 @@ html{
     border: 0px;
     border-radius: 5px;
     color: rgb(255,255,255);
+    font-family: "Ubuntu-Regular", sans-serif;
+
 }
 
 a{
@@ -69,5 +93,11 @@ a{
 }
 
 .bottomscreen{
-    padding: 90px;
+    padding: 10px;
+}
+
+.test{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
 }
