@@ -34,10 +34,16 @@ html{
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
+       height: 99vh;
+          width: 99%;
 }
 
 .small{
     font-size: small;
+}
+
+.smallfix{
+    line-height: normal;
 }
 
 .flag{
