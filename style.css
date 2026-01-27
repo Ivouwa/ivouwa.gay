@@ -65,6 +65,7 @@ html{
 .largefix{
     font-size: 25px;
     font-family:"Ubuntu-Regular";
+    border-bottom: 10px splid red;
 }
 
 .smallfix{
@@ -95,12 +96,18 @@ a{
 }
 
 .bottomscreen{
-    padding: 10px;
+    padding: 0px;
+    margin: 10vh;
 }
 
 .test{
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 10vw;
+    gap: 7vw;
     line-height: normal;
+}
+
+.subdiv{
+    border: 1px solid rgb(248, 248, 248);
+    padding: 0px;
 }
