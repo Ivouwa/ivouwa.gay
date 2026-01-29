@@ -6,6 +6,14 @@
     "configurations": [
         
         {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Attach",
+            "url": "${workspaceFolder}",
+
+        }
+    
+        {
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
