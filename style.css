@@ -10,6 +10,7 @@
 }
 
 html{ 
+
     font-family: "Ubuntu-Light", sans-serif;
     font-style: normal;
     font-weight: 300;
@@ -23,9 +24,11 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -300px
+
 }
         
 .border{
+
    outline: 1px inset rgb(126, 126, 126);
    border: 2px solid rgb(0, 0, 0);
    background-image: url(transparent.png);
@@ -37,47 +40,61 @@ html{
    height: 99vh;
    margin: auto;
    width: 99%;
+
 }
 
 .textdetails{
+
     line-height: 2px;
     padding-top: 15px;
     padding-left: 30px;
     padding-right: 30px;
     text-align: center;
+
 }
 
 .hi{
+
     line-height: 5px;
     font-size: 7vh;
     padding-top: 20px;
     font-family:"Ubuntu-Regular";
+
 }
 
 .pronouns{
+
     font-size: small;
+
 }
 
 .flag{
+
     width: 15px;
+
 }
 
 .largefix{
+
     font-size: 25px;
     font-family:"Ubuntu-Regular";
     border-bottom: 10px splid red;
 }
 
 .smallfix{
+
     line-height: normal;
     font-size: 15px;
 }
 
 div{
+
      padding: 2vh;
+
 }
 
 .buttondesign{
+
     height: 40px;
     width: 200px;
     background-size: 20px;
@@ -90,24 +107,32 @@ div{
 }
 
 a{
+
     text-decoration: none;
     color: white;
     font-family:"Ubuntu-Regular";
+
 }
 
 .bottomscreen{
+
     padding: 0px;
     margin: 10vh;
+
 }
 
 .test{
+
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 7vw;
     line-height: normal;
+
 }
 
 .subdiv{
+
     border: 1px solid rgb(248, 248, 248);
     padding: 0px;
+    
 }
