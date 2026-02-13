@@ -1,12 +1,16 @@
 
 @font-face {
+
     font-family: Ubuntu-light;
     src: url(Ubuntu-Light.ttf);
+
 }
 
 @font-face {
+
     font-family: Ubuntu-Regular;
     src: url(Ubuntu-Regular.ttf);
+
 }
 
 html{ 
@@ -16,10 +20,10 @@ html{
     font-weight: 300;
     line-height: 2px;
 
-    color: rgb(255, 255, 255);
+    color: #7278ab;
     font-weight: 100;
 
-    background-color: rgb(255, 255, 255);
+    background-color: #1c2254;
     background-size: 220vh;
     background-repeat: no-repeat;
     background-position: center;
@@ -32,14 +36,13 @@ html{
 .border{
 
     display: flex;
-    outline: 5px inset rgb(148, 141, 141);
+    outline: 5px inset #3945ab;
     border: 3px solid rgb(0, 0, 0);
     background-image: url(transparent.png);
     border-width: 1px;
-    height: 99vh;
+    height: 98vh;
     margin: auto;
-    width: 99vw;
-
+    width: 98vw;
 
     text-align: center;
     align-items: center;
@@ -50,10 +53,10 @@ html{
 .construction{
 
     font-size: 20px;
-    outline: 5px inset rgb(0, 0, 0);
+    outline: 5px inset #3945ab;
     padding: 20px;
-    width: 850px;
-
+    width: fit-content;
+    background-image: url(transparent.png);
 
 }
 
