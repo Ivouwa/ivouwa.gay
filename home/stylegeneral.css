@@ -1,0 +1,93 @@
+
+@font-face {
+
+    font-family: Ubuntu-light;
+    src: url(Ubuntu-Light.ttf);
+
+}
+
+@font-face {
+
+    font-family: Ubuntu-Regular;
+    src: url(Ubuntu-Regular.ttf);
+
+}
+
+
+html{ 
+
+    font-family: "Ubuntu-Regular", sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2px;
+
+    color: #8d8d8d;
+    font-weight: 100;
+
+    background-color: #000000;
+    background-size: 220vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -300px;
+    background-image: url(background.png);
+
+    display: flex;
+    justify-content: center;
+}
+        
+.border{
+
+    display: flex;
+    outline: 5px outset #212529;
+    border: 3px solid rgb(0, 0, 0);
+    background-image: url(transparent.png);
+    border-width: 1px;
+    height: 98vh;
+    margin: auto;
+    width: 98vw;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.center{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+}
+
+.boxdesign{
+
+    display: flex;
+    font-size: 20px;
+    outline: 5px solid #212529;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-image: url(lightertransparent.png);
+    flex-direction: column;
+
+}
+
+div{
+    padding: 20px;
+}
+
+.subdiv{
+    padding: 0px;
+    outline: 1px solid #212529;
+}
+
+
+/*
+
+
+lalalalalaaaaa
+
+
+*/

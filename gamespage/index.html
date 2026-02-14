@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+
+<html>
+
+<head>
+
+    <link rel="stylesheet" href="stylegeneral.css">
+
+</head>
+
+
+<body class="border">
+<header class="boxdesign">
+<a url="index.html"></a> -  IVOUWA.GAY  -
+</header>
+
+
+<header class="boxdesign" class="music" id="playpause" >
+<img src="pp.png" style="height: 20px;">
+<audio id="audio">
+  <source src="charcus.mp3" type="audio/mpeg">
+</audio>
+<script>
+document.getElementById("playpause").onclick = function() {
+    var audio = document.getElementById("audio");
+    audio.volume = 0.15;
+    if (audio.paused) audio.play();
+    else audio.pause();
+}
+</script>
+</header>
+
+
+
+
+</body>
+
+</html>s
