@@ -2,14 +2,14 @@
 @font-face {
 
     font-family: Ubuntu-light;
-    src: url(Ubuntu-Light.ttf);
+    src: url(./Ubuntu-Light.ttf);
 
 }
 
 @font-face {
 
     font-family: Ubuntu-Regular;
-    src: url(Ubuntu-Regular.ttf);
+    src: url(./Ubuntu-Regular.ttf);
 
 }
 
@@ -29,10 +29,11 @@ html{
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -300px;
-    background-image: url(background.png);
+    background-image: url(./images/background.png);
 
     display: flex;
     justify-content: center;
+    font-size: 50px;
 }
         
 .border{
@@ -40,7 +41,7 @@ html{
     display: flex;
     outline: 5px outset #212529;
     border: 3px solid rgb(0, 0, 0);
-    background-image: url(transparent.png);
+    background-image: url(./images/transparent.png);
     border-width: 1px;
     height: 98vh;
     margin: auto;
@@ -69,9 +70,24 @@ html{
     padding: 20px;
     width: fit-content;
     height: fit-content;
-    background-image: url(lightertransparent.png);
+    background-image: url(./images/lightertransparent.png);
     flex-direction: column;
+    line-height: normal;
+    margin: 100px;
+    
+}
+.nomargin{
 
+    display: flex;
+    font-size: 20px;
+    outline: 5px solid #212529;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-image: url(./images/lightertransparent.png);
+    flex-direction: column;
+    line-height: normal;
+    
 }
 
 div{
@@ -83,7 +99,10 @@ div{
     outline: 1px solid #212529;
 }
 
-
+a{
+    text-decoration: none;
+    color: inherit;
+}
 /*
 
 

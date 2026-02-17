@@ -8,17 +8,10 @@
         {
             "type": "firefox",
             "request": "launch",
-            "name": "Attach",
+            "name": "Firefox Debug",
             "url": "${workspaceFolder}",
 
         }
     
-        {
-            "type": "chrome",
-            "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "url": "${workspaceFolder}",
-            "webRoot": "${workspaceFolder}"
-        }
     ]
 }
