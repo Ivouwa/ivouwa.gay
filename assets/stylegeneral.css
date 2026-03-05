@@ -62,20 +62,41 @@ html{
 
 }
 
-.boxdesign{
+.horstack{
 
     display: flex;
+    flex-direction: row;
+
+}
+
+.boxdesign{
+
     font-size: 20px;
     outline: 5px solid #212529;
     padding: 20px;
     width: fit-content;
     height: fit-content;
     background-image: url(./images/lightertransparent.png);
-    flex-direction: column;
     line-height: normal;
     margin: 100px;
     
+    
 }
+
+.buttondesign{
+
+    font-size: 20px;
+    outline: 5px solid #212529;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-image: url(./images/lightertransparent.png);
+    line-height: normal;
+    margin: 60px;
+    border-radius: 10%;
+
+}
+
 .nomargin{
 
     display: flex;
