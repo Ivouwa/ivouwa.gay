@@ -10,6 +10,7 @@
 
     font-family: Ubuntu-Regular;
     src: url(./Ubuntu-Regular.ttf);
+    color: #8d8d8d;
 
 }
 
@@ -34,8 +35,13 @@ html{
     display: flex;
     justify-content: center;
     font-size: 50px;
+
+/*
+Mostly background stuff and setting the font and text color
+*/
+
 }
-        
+ 
 .border{
 
     display: flex;
@@ -48,53 +54,9 @@ html{
     width: 98vw;
     justify-content: space-between;
     flex-direction: column;
-
-}
-
-.center{
-
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-}
-
-.horstack{
-
-    display: flex;
-    flex-direction: row;
-
-}
-
-.boxdesign{
-
-    font-size: 20px;
-    outline: 5px solid #212529;
-    padding: 20px;
-    width: fit-content;
-    height: fit-content;
-    background-image: url(./images/lightertransparent.png);
-    line-height: normal;
-    margin: 100px;
-    
-    
-}
-
-.buttondesign{
-
-    font-size: 20px;
-    outline: 5px solid #212529;
-    padding: 20px;
-    width: fit-content;
-    height: fit-content;
-    background-image: url(./images/lightertransparent.png);
-    line-height: normal;
-    margin: 60px;
-    border-radius: 10%;
-
+/*
+main border around everything, centeres everything horizontally
+*/
 }
 
 .nomargin{
@@ -108,22 +70,95 @@ html{
     background-image: url(./images/lightertransparent.png);
     flex-direction: column;
     line-height: normal;
+
+/*
+use this to atttach items to .border
+*/
+    
+}
+
+.center{
+
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+/*
+Tells flex to center everything and put it in a row
+*/
+}
+
+.boxdesign{
+
+    font-size: 20px;
+    outline: 5px solid #212529;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    background-image: url(./images/lightertransparent.png);
+    line-height: normal;
+    margin: 100px;
+
+/*
+Use this to make a box with a simple design
+*/
     
 }
 
 div{
     padding: 20px;
+/*
+basic div value
+*/
 }
 
 .subdiv{
     padding: 0px;
     outline: 1px solid #212529;
+/*
+Use this to make thin horizontal deviders
+*/
 }
 
 a{
     text-decoration: none;
     color: inherit;
+/*
+Forces links to not have underlines and weird colors
+*/
 }
+
+.rightborder{
+    padding: 0px;
+    margin: 0px;
+    padding-right: 10px;
+    padding-left: 2px;
+    border-right: #8d8d8d dashed 2px;
+/*
+makes a dashed line to the left of text
+*/
+}
+
+.flagscaling{
+    width: 23px;
+    padding-top: 1px;
+/*
+scales the traggot flag
+*/
+} 
+
+.descriptortext{
+    padding-bottom: 4px;
+    margin-bottom: 4px;
+    line-height: 20px;
+/*
+makes text have less line height so it's closer to the contents under it
+*/
+}
+
 /*
 
 
