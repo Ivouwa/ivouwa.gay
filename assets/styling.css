@@ -1,3 +1,11 @@
+/*i am ivouwa and this is my code*/
+
+/*********************************/
+
+
+/*
+    Font stuffs
+*/  
 
 @font-face {
 
@@ -10,10 +18,13 @@
 
     font-family: Ubuntu-Regular;
     src: url(./Ubuntu-Regular.ttf);
-    color: #8d8d8d;
 
 }
 
+ 
+/*
+Font settings & Background
+*/
 
 .baseline{
 
@@ -31,151 +42,130 @@
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -300px;
-    background-image: url(./images/background.jpg);
+    background-image: url(./images/bg.jpg);
 
     display: flex;
     justify-content: center;
+}
 
 
 /*
-Mostly background stuff and setting the font and text color
+Main border
 */
 
-}
- 
 .border{
     
     display: flex;
-    outline: 5px outset #25405b;
-    background-image: url(./images/transparent.png);
-    border-width: 1px;
-    height: fit-content;
     margin: 20px;
-    width: fit-;    
+    height: fit-content;
+    width: fit-content;  
+
+    outline: 5px outset #25405b;
+    border-width: 1px;
+    background-image: url(./images/lightertransparent.png);
+ 
     justify-content: space-between;
     flex-direction: column;
-/*
-main border around everything, centeres everything horizontally
-*/
+
 }
+
+
+/*
+Attaches times to .border
+*/
 
 .nomargin{
 
     display: flex;
-    font-size: 20px;
-    padding: 20px;
-    width: fit-content;
-    height: fit-content;
     flex-direction: column;
-    line-height: normal;
-    color: #4f6b92;
 
-/*
-use this to atttach items to .border
-*/
-    
-}
-
-.center{
-
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-
-/*
-Tells flex to center everything and put it in a row
-*/
-}
-
-.boxdesign{
-
-    font-size: 20px;
-    outline: 5px solid #212529;
-    padding: 20px;
     width: fit-content;
     height: fit-content;
-    background-image: url(./images/lightertransparent.png);
+
     line-height: normal;
-    margin: 100px;
+    padding: 20px;
+
+}
+
 
 /*
-Use this to make a box with a simple design
+Divider stuff
+
+div sets padding 
+.sub makes the font smaller then base (30px --> 20px)
+.subdiv is a horizontal divider, unused
 */
-    
-}
 
 div{
     padding: 10px;
-/*
-basic div value
-*/
+}
+
+.sub{
+    font-size: 20px;
 }
 
 .subdiv{
     padding: 0px;
     margin: inherit;
     outline: 1px solid #091c5e;
-/*
-Use this to make thin horizontal deviders
-*/
 }
+
+
+/*
+Forces links to look like the rest of the text
+*/
 
 a{
     text-decoration: none;
     color: inherit;
-/*
-Forces links to not have underlines and weird colors
-*/
 }
 
-.rightborder{
-    padding: 0px;
-    margin: 0px;
-    padding-right: 10px;
-    padding-left: 5px;
-    border-right:#4f6b92 dashed 2px;
+
 /*
 makes a dashed line to the left of text
+used for seperating
 */
+
+.rightborder{
+
+    padding: 0px;
+    padding-right: 10px;
+    padding-left: 5px;
+    margin: 0px;
+
+    border-right:#4f6b92 dashed 2px;
+
 }
+
+
+/*
+scales the flag
+*/
 
 .flagscaling{
     width: 23px;
     padding-top: 1px;
-/*
-scales the traggot flag
-*/
 } 
+ 
 
-.descriptortext{
-    padding-bottom: 4px;
-    margin-bottom: 4px;
-    line-height: 20px;
 /*
-makes text have less line height so it's closer to the contents under it
+Used for the footer
+Holds the left and the right sides of .border more open
+Borrows from .nomargin to attach it to the bottom
 */
-}
 
 footer{
+
     padding: 20px;
     margin-top: 30px;
     margin-left: 200px;
     margin-right: 200px;
-    color: #4f6b92;
-    font-size: 20px;
     width: fit-content;
     height: fit-content;
     line-height: normal;
-
+    
+    
+    color: inherit;
+    font-size: 20px;
+    
 }
-
-/*
-
-
-footer code, borrows stuff from .nomargin
-
-
-*/
