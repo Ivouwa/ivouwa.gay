@@ -23,7 +23,7 @@
     line-height: 20px;
     font-size: 30px;
     font-weight: 100;
-    color: #4976e9;
+    color: #4f6b92;
     text-align: center;
 
     background-color: #000000;
@@ -46,7 +46,7 @@ Mostly background stuff and setting the font and text color
 .border{
     
     display: flex;
-    outline: 5px outset #091c5e;
+    outline: 5px outset #25405b;
     background-image: url(./images/transparent.png);
     border-width: 1px;
     height: fit-content;
@@ -68,7 +68,7 @@ main border around everything, centeres everything horizontally
     height: fit-content;
     flex-direction: column;
     line-height: normal;
-    color: #4976e9;
+    color: #4f6b92;
 
 /*
 use this to atttach items to .border
@@ -136,7 +136,7 @@ Forces links to not have underlines and weird colors
     margin: 0px;
     padding-right: 10px;
     padding-left: 5px;
-    border-right:#4976e9 dashed 2px;
+    border-right:#4f6b92 dashed 2px;
 /*
 makes a dashed line to the left of text
 */
@@ -161,10 +161,10 @@ makes text have less line height so it's closer to the contents under it
 
 footer{
     padding: 20px;
-    margin-top: 100px;
+    margin-top: 30px;
     margin-left: 200px;
     margin-right: 200px;
-    color: #4976e9;
+    color: #4f6b92;
     font-size: 20px;
     width: fit-content;
     height: fit-content;
