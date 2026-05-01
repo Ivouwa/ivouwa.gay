@@ -15,26 +15,27 @@
 }
 
 
-html{ 
+.baseline{
 
     font-family: "Ubuntu-Regular", sans-serif;
     font-style: normal;
     font-weight: 300;
-    line-height: 2px;
-
-    color: #8d8d8d;
+    line-height: 20px;
+    font-size: 30px;
     font-weight: 100;
+    color: #4976e9;
+    text-align: center;
 
     background-color: #000000;
-    background-size: 220vh;
+    background-size: 300vh;
     background-repeat: no-repeat;
     background-position: center;
     background-position-y: -300px;
-    background-image: url(./images/background.png);
+    background-image: url(./images/background.jpg);
 
     display: flex;
     justify-content: center;
-    font-size: 50px;
+
 
 /*
 Mostly background stuff and setting the font and text color
@@ -43,15 +44,14 @@ Mostly background stuff and setting the font and text color
 }
  
 .border{
-
+    
     display: flex;
-    outline: 5px outset #212529;
-    border: 3px solid rgb(0, 0, 0);
+    outline: 5px outset #091c5e;
     background-image: url(./images/transparent.png);
     border-width: 1px;
-    height: 98vh;
-    margin: auto;
-    width: 98vw;
+    height: fit-content;
+    margin: 20px;
+    width: fit-;    
     justify-content: space-between;
     flex-direction: column;
 /*
@@ -63,13 +63,12 @@ main border around everything, centeres everything horizontally
 
     display: flex;
     font-size: 20px;
-    outline: 5px solid #212529;
     padding: 20px;
     width: fit-content;
     height: fit-content;
-    background-image: url(./images/lightertransparent.png);
     flex-direction: column;
     line-height: normal;
+    color: #4976e9;
 
 /*
 use this to atttach items to .border
@@ -109,7 +108,7 @@ Use this to make a box with a simple design
 }
 
 div{
-    padding: 20px;
+    padding: 10px;
 /*
 basic div value
 */
@@ -117,7 +116,8 @@ basic div value
 
 .subdiv{
     padding: 0px;
-    outline: 1px solid #212529;
+    margin: inherit;
+    outline: 1px solid #091c5e;
 /*
 Use this to make thin horizontal deviders
 */
@@ -136,7 +136,7 @@ Forces links to not have underlines and weird colors
     margin: 0px;
     padding-right: 10px;
     padding-left: 5px;
-    border-right: #8d8d8d dashed 2px;
+    border-right:#4976e9 dashed 2px;
 /*
 makes a dashed line to the left of text
 */
@@ -159,10 +159,23 @@ makes text have less line height so it's closer to the contents under it
 */
 }
 
+footer{
+    padding: 20px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: #4976e9;
+    font-size: 20px;
+    width: fit-content;
+    height: fit-content;
+    line-height: normal;
+
+}
+
 /*
 
 
-lalalalalaaaaa
+footer code, borrows stuff from .nomargin
 
 
 */
